@@ -5,17 +5,12 @@ from django.views.generic import ListView , DetailView, CreateView , UpdateView 
 from django.contrib.auth.mixins import LoginRequiredMixin , UserPassesTestMixin
 
 # Create your views here
-def home(request):
-    context={
-        'posts':Post.objects.all()
-    }
-    return render(request,'blog/home.html',context)
-
 class PostListView(ListView):
     model = Post
     template_name = 'blog/home.html' # <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
     ordering = ['-date_posted'] # here '-' sign changes the order of the posts from oldest2latest to latest2oldest
+    paginate_by =5 #no. of posts per page
 
 class PostDetailView(DetailView):
     model= Post
