@@ -16,8 +16,8 @@ The project is divided into two main apps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/blog-website.git
-cd blog-website
+git clone https://github.com/bigyan08/blog.git
+cd blog
 ```
 2. Set up the virtual environment and install dependencies:
 
