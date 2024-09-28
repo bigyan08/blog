@@ -29,10 +29,9 @@ pip install -r requirements.txt
 
 # For Node.js (Express/React)
 npm install
-Set up the database:
 ```
 
-3. Configure the database settings in the settings.py file (for Django) or the relevant configuration file in your project.
+3. Set up the database.Configure the database settings in the settings.py file (for Django) or the relevant configuration file in your project.
 
 ```bash
 # Django example (run migrations)
