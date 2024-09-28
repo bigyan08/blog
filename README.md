@@ -22,13 +22,9 @@ cd blog-website
 2. Set up the virtual environment and install dependencies:
 
 ```bash
-# For Python (Django/Flask)
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
-# For Node.js (Express/React)
-npm install
 ```
 
 3. Set up the database.Configure the database settings in the settings.py file (for Django) or the relevant configuration file in your project.
@@ -37,17 +33,12 @@ npm install
 # Django example (run migrations)
 python manage.py migrate
 
-# Node.js example
-npm run migrate
-Run the development server:
-# For Python (Django/Flask)
+# Run the development server:
 python manage.py runserver
 
-# For Node.js
-npm start
 ```
 4. Access the website:
-Open your browser and go to http://127.0.0.1:8000 (for Django) or http://localhost:3000 (for Node.js).
+Open your browser and go to http://127.0.0.1:8000
 
 ## Live Demo
 You can view a live demo of the project at [https://blogwebapp-x7io.onrender.com/]
