@@ -2,8 +2,8 @@
 <article class="media content-section">
     <img src="{{ object.author.profile.image.url }}" class="rounded-circle article-img">
     <div class="media-body">
-        <div class="article-metadata ">
-            <a class="mr-2" href="{%url 'user-posts' object.author.username %}">{{ object.author }}</a>
+        <div class="article-metadata d-flex flex-column ">
+            <a class="mr-2 p-2 text-decoration-none h6" href="{%url 'user-posts' object.author.username %}">{{ object.author }}</a>
             <small class="text-muted">{{ object.date_objected|date:'F d, Y' }}</small>
         </div>
         <h2 class="article-title">{{ object.title }}</h2>
