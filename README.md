@@ -40,6 +40,3 @@ python manage.py runserver
 4. Access the website:
 Open your browser and go to http://127.0.0.1:8000
 
-## Live Demo
-You can view a live demo of the project at [https://blogwebapp-x7io.onrender.com/]
-This project is deployed on render.
