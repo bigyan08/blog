@@ -40,3 +40,5 @@ python manage.py runserver
 4. Access the website:
 Open your browser and go to http://127.0.0.1:8000
 
+## Deployment
+The application is deployed on Vercel and I have used Supabase for Postgresql database. You can access it from here:(https://blog-seven-delta-13.vercel.app/)
